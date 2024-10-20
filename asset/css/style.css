@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@500&family=Noto+Sans+NKo&family=Sedgwick+Ave+Display&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:root{
+    --putih:#f1f6f9;
+    --biru:#14274E;
+    --gray:#434242;
+    --gray2:#232121;
+    --oren:#fc9c04;
+}
+body{
+    font-family: 'Sedgwick Ave Display'x;
+}
+
+.header-bg{
+    /* background: var(--gray
+    ); */
+    background-image: url(../img/headerawal.jpg);
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 4%;
+    z-index: 0;
+   
+}
+
+.header-bg .bg-putih{
+   
+    background: #2c2c8d;
+}
+
+.header-bg ul li a{
+    position: relative;
+    text-transform: uppercase;
+}
+.header-bg ul li a::after{
+    content: "";
+    height: 2px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    transition: 0.5s;
+}
+
+.header-bg ul li a:hover::after{
+width: 100%;
+
+}
+
+
+#about .btn-more{
+    background: var(--oren);
+    color: white;
+    border-radius: 25px;
+}
+#about .btn-more:hover{
+    background: #f6ad38;
+}
+
+.aku1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-height: 400px;
+}
+
+
+.column {
+    flex: 25%;
+    max-width: 115%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 4px;
+}
+
+#blog{
+    background: whitesmoke;
+}
+#blog .baca-selengkapnya{
+    background: var(--gray2);
+    color: #f1f6f9;
+}
+#blog .btn-more{
+    background: var(--oren);
+    color: white;
+    border-radius: 15px;
+}
+
+#blog .btn-more:hover{
+    background: var(--gray);
+  
+}
+
+.bawah-about:hover{
+background:#232121;
+color: #fff;
+padding-top: 0;
+}
+#kontak{
+    background-image: linear-gradient(to bottom right,#722f98,#2d299a);
+}
+
+
+#kontak .btn-kirim{
+    background: #722f98;
+    border: none;
+    height: 150%;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+#kontak .btn-kirim:hover{
+    background:#934dbb;
+ 
+
+}
+
+
+/* aboutme */
+.aboutme{
+    background-image:url(../img/gbr1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: 500px;
+}
+
+.aboutme .garis-about{
+    border: 3px solid #fc9c04;
+    opacity: 100%;
+    width: 110px;
+    margin-left: 42.3%;
+    margin-top: -10px;
+    border-radius: 15px;
+}
+
+
+
+.panel2{
+    background-image:url(../img/teknologibg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: 500px;
+}
+
+#panel4{
+    background:  var(--gray);
+  
+}
+
+#promosi{
+  
+    background:#001e5e;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+}
+#promosi .btn-jelajah{
+    background:white;
+    color: #001e5e;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 0 3px 3px 0 #fff, 0 3px 20px 0 #fff;
+}
+
+#gridd{
+    background-image: linear-gradient(gray,whitesmoke);
+}
+
+#gridd img{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+#gridd .img1{
+margin-top: 50px;
+}
+
+#gridd img:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+    transition: 0.5s;
+}
